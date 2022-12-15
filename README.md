@@ -46,7 +46,8 @@ git checkout 전환할 branch 이름
 새로운 branch를 만들고 그 branch로 전환하기  
 git checkout -b 새로만들 branch 이름  
 
-
+새로운 branch를 만들고 그 branch를 깃헙에 만드려면
+git push --set-upstream origin 새로운 branch 이름
 
 git bash을 통해 텍스트 파일에 진입시
 vim test.txt
