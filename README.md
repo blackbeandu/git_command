@@ -48,6 +48,7 @@ git checkout -b 새로만들 branch 이름
 
 새로운 branch를 만들고 그 branch를 깃헙에 만드려면
 git push --set-upstream origin 새로운 branch 이름
+해석하자면 origin(remote)에 내가 만든 branch(local)를 push하겠다!
 
 git bash을 통해 텍스트 파일에 진입시
 vim test.txt
