@@ -50,6 +50,9 @@ git checkout -b 새로만들 branch 이름
 git push --set-upstream origin 새로운 branch 이름
 해석하자면 origin(remote)에 내가 만든 branch(local)를 push하겠다!
 
+branch 삭제
+git branch -D 삭제할 branch 이름
+
 git bash을 통해 텍스트 파일에 진입시
 vim test.txt
 후 i나 a를 눌러 편집모드로 들어감. write 가능.<br> 
