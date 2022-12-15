@@ -15,6 +15,7 @@ git remote -v
 
 내 레파지토리의 clone을 생성  
 git clone origin  
+git bash의 경로에 해당 레파지토리 폴더가 생긴다. 이렇게 하는 것이 code클릭 후 zip파일을 다운받는 것보다 더 쉽고 빠르다.
 
 자기가 올릴 파일이 있는 상위 폴더에 마우스 오른쪽 버튼 클릭 후 git bash here 클릭  
 
@@ -26,4 +27,24 @@ git을 사용하기 위해 git init으로 .git 폴더 생성 (쉽게 말하면 g
 
 이미 clone을 생성 했는데 레파지토리에 다른 파일이 누군가에 의해서(또는 내가 직접 파일을 웹에서 올렸을 경우)
 git pull
-하면 업로드된 파일들 
+하면 업로드된 파일들 가져온다.
+
+새로운 branch를 만드는 방법
+git branch 새로만들 branch 이름
+
+branch 전환
+git checkout 전환할 branch 이름
+
+새로운 branch를 만들고 그 branch로 전환하기
+git checkout -b 새로만들 branch 이름
+
+
+
+
+
+
+
+
+
+
+
