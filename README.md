@@ -25,6 +25,14 @@ git을 사용하기 위해 git init으로 .git 폴더 생성 (쉽게 말하면 g
 이거 만들면서 git 다시 해봤는데 빈 폴더는 push를 할 수 없다.  
 애초에 add가 안됨. 폴더 안에 파일이 1개라도 있어야함. 그래서 test2.txt를 넣었더니 git status에 test_folder가 보인다.  
 
+add한거 commit하기 
+git commit -m "내가 쓰고싶은 내용. 당연히 뭘 수정했는지 써야 함"
+근데 메시지 안쓰고 싶으면?
+git commit --allow-empty-message -m "" (당연히 git commit -m "" 은 안되기 때문)
+
+add와 commit 동시에 하기
+git commit -
+
 이미 clone을 생성 했는데 레파지토리에 다른 파일이 누군가에 의해서(또는 내가 직접 파일을 웹에서 올렸을 경우)  
 git pull  
 하면 업로드된 파일들 가져온다.  
@@ -45,7 +53,9 @@ vim test.txt
 후 i나 a를 눌러 편집모드로 들어감. write 가능.<br> 
 다 수정후 Esc누른후 :wq 누르면 저장하고 종료 <br>
 
-
+git bash에서 새로운 branch를 만들면 기본 base가 main(master)로 되어있다. branch이동 후 수정해도 main이 직접 바뀌지는 않는다. <br>
+새로운 branch를 testbr이라 부르겠다.<br>
+testbr에서 파일을 수정 후 
 
 
 
