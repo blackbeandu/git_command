@@ -53,7 +53,7 @@ git checkout 전환할 branch 이름
 git checkout -b 새로만들 branch 이름  
 
 새로운 branch를 만들고 그 branch를 깃헙에 만드려면
-git push --set-upstream origin 새로운 branch 이름
+git push --set-upstream origin 새로운 branch 이름  
 해석하자면 origin(remote)에 내가 만든 branch(local)를 push하겠다!  
 
 branch list 확인  
