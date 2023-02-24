@@ -12,6 +12,9 @@ origin은 변수명이라고 생각하면된다. 다른 이름으로도 가능�
 복사하기 : ctrl + insert (참고로 그냥 인터넷에서 복사할 때는 ctrl + c 로 복사후 git  bash해서 붙여넣기 방식으로 하면 붙여넣어진다. </br>
 붙여넣기 : shift + insert  
 
+기존 orign 삭제  
+git remote remove origin
+
 레파지토리 연결된거 확인  
 git remote -v  
 
@@ -63,6 +66,7 @@ vim test.txt
 git bash에서 새로운 branch를 만들면 기본 base가 main(master)로 되어있다. branch이동 후 수정해도 main이 직접 바뀌지는 않는다. <br>
 새로운 branch를 testbr이라 부르겠다.<br>
 testbr에서 파일을 수정 후 
+
 
 
 
