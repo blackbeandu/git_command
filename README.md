@@ -56,6 +56,11 @@ git checkout -b 새로만들 branch 이름
 git push --set-upstream origin 새로운 branch 이름  
 해석하자면 origin(remote)에 내가 만든 branch(local)를 push하겠다!  
 
+한번도 commit을 하지 않고 branch를 만들면  
+fata: not a valid object name: 'mater'이라고 에러 문구가 뜬다.  
+그럼 여기서 강제로 git checkout -b test 를 입력하면 branch가 switch 되는데,  
+이는 새로운 branch가 만들어 진것이 아니라 기존 branch이름이 변경된 것이다(master -> test).  
+
 branch list 확인  
 git brach -a  
 
