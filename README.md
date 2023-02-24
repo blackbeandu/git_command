@@ -8,8 +8,8 @@
 연결할 레파지토리의 url을 복사한 후
 git remote add origin url  
 origin에 내 url 정보가 담겨 있음.  
-origin은 변수명이라고 생각하면된다. 다른 이름으로도 가능하나 가장 상위(즉 디폴트)는 통념상 origin으로 한다. 
-복사하기 : ctrl + insert (참고로 그냥 인터넷에서 복사할 때는 ctrl + c 로 복사후 git  bash해서 붙여넣기 방식으로 하면 붙여넣어진다. 
+origin은 변수명이라고 생각하면된다. 다른 이름으로도 가능하나 가장 상위(즉 디폴트)는 통념상 origin으로 한다. </br>
+복사하기 : ctrl + insert (참고로 그냥 인터넷에서 복사할 때는 ctrl + c 로 복사후 git  bash해서 붙여넣기 방식으로 하면 붙여넣어진다. </br>
 붙여넣기 : shift + insert  
 
 레파지토리 연결된거 확인  
