@@ -20,7 +20,8 @@ git remote -v
 
 내 레파지토리의 clone을 생성  
 git clone url  
-git bash의 경로에 해당 레파지토리 폴더가 생긴다. 이렇게 하는 것이 code클릭 후 zip파일을 다운받는 것보다 더 쉽고 빠르다.
+git bash의 경로에 해당 레파지토리 폴더가 생긴다. 이렇게 하는 것이 code클릭 후 zip파일을 다운받는 것보다 더 쉽고 빠르다.  \
+url은 진짜 경로여야 한다. origin으로 썼더니 안된다.  
 
 자기가 올릴 파일이 있는 상위 폴더에 마우스 오른쪽 버튼 클릭 후 git bash here 클릭  
 
