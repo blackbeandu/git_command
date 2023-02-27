@@ -83,9 +83,10 @@ vim test.txt
 후 i나 a를 눌러 편집모드로 들어감. write 가능.<br> 
 다 수정후 Esc누른후 :wq 누르면 저장하고 종료 <br>
 
-git bash에서 새로운 branch를 만들면 기본 base가 main(master)로 되어있다. branch이동 후 수정해도 main이 직접 바뀌지는 않는다. <br>
-새로운 branch를 testbr이라 부르겠다.<br>
-testbr에서 파일을 수정 후  
+git bash에서 새로운 branch를 만들면 main을 기반으로 새롭게 만들어진다. </br>
+git checkout <branch name>으로 이동하면 당연히 파일 내용이 바뀐다. </br>
+원본에서 git pull을 해 내 로컬에 파일을 업데이트 하려면 같은 branch 선상에 있어야 한다.</br>
+ex)git pull origin main 이라고 하면 내 git bash에 branch도 main에 있어야 한다. </br>
 
 
 
