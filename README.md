@@ -33,11 +33,13 @@ url은 진짜 경로여야 한다. origin으로 썼더니 안된다.
 git을 사용하기 위해 git init으로 .git 폴더 생성 (쉽게 말하면 git 생성자 클래스라할까..)  
 이것은 기존 레파지토리를 사용하지 않고(clone뜨지 않고 할 경우) 할 때고 보통 git bash에서 git clone뜨면 저절러 .git 생성된다.</br>
 
-git --global user.name "git 닉네임"  
-git --global user.email git로그인 이메일 
+git --global user.name git 닉네임  
+git --global user.email git로그인 이메일  
 git config --global --list : global config list  
 git config --local --list : local config list  
 git config --list : all config list  
+삭제  
+git config --unset 해당cfg변수  
 
 이거 만들면서 git 다시 해봤는데 빈 폴더는 push를 할 수 없다.  
 애초에 add가 안됨. 폴더 안에 파일이 1개라도 있어야함. 그래서 test2.txt를 넣었더니 git status에 test_folder가 보인다.  
