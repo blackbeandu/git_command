@@ -92,7 +92,7 @@ ex)git pull origin main 이라고 하면 내 git bash에 branch도 main에 있�
 
 참고<br>
 https://www.zerocho.com/category/Git/post/580f633046f4fe09815b72a5  
-https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/  
+https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/ (PR 관련)  
 https://gmlwjd9405.github.io/2018/05/18/git-stash.html (stash 관련 )  
 
 
