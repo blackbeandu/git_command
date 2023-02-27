@@ -7,8 +7,12 @@
 
 연결할 레파지토리의 url을 복사한 후
 git remote add origin url  
-origin에 내 url 정보가 담겨 있음.  
+origin에 내 url(사이트 주소 말고 copy에 나오는 주소) 정보가 담겨 있음.  
 origin은 변수명이라고 생각하면된다. 다른 이름으로도 가능하나 가장 상위(즉 디폴트)는 통념상 origin으로 한다. </br>
+참고) 일단 내 것 말고 원본 레파지토리로 연결해놓으면 PR이 가능한 것을 확인했다.  
+  여기서 2가지 경우의 수를 생각해볼 수 있다.  
+   1. fork뜬 것은 원본에 remote를 걸어야 한다.</br>
+   2. 내 레이어(내가 원본)는 내 주소로 remote하면 PR이 가능하다.(지금 말 정리가 안된다;;) </br>
 복사하기 : ctrl + insert (참고로 그냥 인터넷에서 복사할 때는 ctrl + c 로 복사후 git  bash해서 붙여넣기 방식으로 하면 붙여넣어진다. </br>
 붙여넣기 : shift + insert  
 
@@ -27,6 +31,7 @@ url은 진짜 경로여야 한다. origin으로 썼더니 안된다.
 
 처음 시작하면 맨 끝에 (master) 이런게 없음  
 git을 사용하기 위해 git init으로 .git 폴더 생성 (쉽게 말하면 git 생성자 클래스라할까..)  
+이것은 기존 레파지토리를 사용하지 않고(clone뜨지 않고 할 경우) 할 때고 보통 git bash에서 git clone뜨면 저절러 .git 생성된다.</br>
 
 git --global user.name "git 닉네임"  
 git --global user.email git로그인 이메일 
