@@ -91,11 +91,21 @@ git checkout <branch name>으로 이동하면 당연히 파일 내용이 바뀐�
 원본에서 git pull을 해 내 로컬에 파일을 업데이트 하려면 같은 branch 선상에 있어야 한다.</br>
 ex)git pull origin main 이라고 하면 내 git bash에 branch도 main에 있어야 한다. </br>
 
+git add . 할 때 특정 파일을 제외하고 싶은 경우(숨겨진 폴더중 .vs는 업로드가 어려운데(불가) 이거 하나만 빼주고 싶을 때)  
+git bash에서 vi gitignore 입력 후  
+폴더의 경우  
+#folder  
+.vs/  
 
+파일의 경우  
+#file  
+*.apk  
+동시도 가능  
 
 참고<br>
 https://www.zerocho.com/category/Git/post/580f633046f4fe09815b72a5 (git 명령 간단 설명)  
 https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/ (PR 관련)  
 https://gmlwjd9405.github.io/2018/05/18/git-stash.html (stash 관련)  
+https://dreamaz.tistory.com/540 (add시 특정 파일(폴더) 제외시키기)  
 
 
