@@ -70,7 +70,8 @@ git checkout -b 새로만들 branch 이름
 새로운 branch를 만들고 그 branch를 깃헙에 만드려면
 git push --set-upstream origin 새로운 branch 이름  
 해석하자면 origin(remote)에 내가 만든 branch(local)를 push하겠다!  
-(이거 지금 작동을 안함..)
+(이거 지금 작동을 안함..)  
+->정상 작동 한다면 새로운 branch가 위 코드 필요 없이 자동으로 만들어짐. 즉 protect된 branch에 직접 push를 하지 않으면 됨.</br>
 
 한번도 commit을 하지 않고 branch를 만들면  
 fata: not a valid object name: 'mater'이라고 에러 문구가 뜬다.  
