@@ -114,7 +114,11 @@ git bash에서 vi gitignore 입력 후
 원격 저장소의 branch확인하기</br>
 git remote show origin </br>
 
-
+*수정이 필요함</br>
+stash는 임시저장으로 아직 add와 commit을 하고 싶지는 않지만 다른 branch로 이동해 작업해야 할 때 사용한다.</br>
+git stash save로 stash가 저장되며 git stash list로  stash목록을 확인할 수 있다.</br>
+특정 stash를 적용시키려면 list를 확인한 뒤 git stash apply <stash이름> . stash이름 ex) stash@{0} </br>
+추가 사항은 참고에 사이트 확인</br>
 
 
 참고<br>
