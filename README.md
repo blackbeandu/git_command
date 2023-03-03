@@ -120,6 +120,9 @@ git stash save로 stash가 저장되며 git stash list로  stash목록을 확인
 특정 stash를 적용시키려면 list를 확인한 뒤 git stash apply <stash이름> . stash이름 ex) stash@{0} </br>
 추가 사항은 참고에 사이트 확인</br>
 
+git diff : 두 branch의 차이를 보여주는 명령어</br>
+git diff origin/amster origin/test </br>
+
 
 참고<br>
 https://www.zerocho.com/category/Git/post/580f633046f4fe09815b72a5 (git 명령 간단 설명)  
