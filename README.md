@@ -105,6 +105,9 @@ git bash에서 vi gitignore 입력 후
 *.apk  
 동시도 가능  
 
+원격 저장소의 branch확인하기</br>
+git remote show origin </br>
+
 참고<br>
 https://www.zerocho.com/category/Git/post/580f633046f4fe09815b72a5 (git 명령 간단 설명)  
 https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/ (PR 관련)  
