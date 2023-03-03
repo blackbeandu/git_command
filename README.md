@@ -56,6 +56,7 @@ git commit -am "설명"
 이미 clone을 생성 했는데 레파지토리에 다른 파일이 누군가에 의해서(또는 내가 직접 파일을 웹에서 올렸을 경우)  
 git pull  
 하면 업로드된 파일들 가져온다.  
+git fetch 도 pull과 같은 역할인데 pull은 가져오는 코드가 더 최신이면 내 코드와 merge하지만 fetch는 단순히 코드만 가져온다.  
 
 새로운 branch를 만드는 방법  
 git branch 새로만들 branch 이름  
