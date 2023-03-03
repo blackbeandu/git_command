@@ -56,7 +56,13 @@ git commit -am "설명"
 이미 clone을 생성 했는데 레파지토리에 다른 파일이 누군가에 의해서(또는 내가 직접 파일을 웹에서 올렸을 경우)  
 git pull  
 하면 업로드된 파일들 가져온다.  
-git fetch 도 pull과 같은 역할인데 pull은 가져오는 코드가 더 최신이면 내 코드와 merge하지만 fetch는 단순히 코드만 가져온다.  
+git fetch 도 pull과 같은 역할인데 pull은 가져오는 코드가 더 최신이면 내 코드와 merge하지만 fetch는 단순히 로그만 가져온다고 생각하면 된다.</br>
+즉 어디어디가 지금 너가 가지고 있는것과 달라졌다고 알려주는데 이게 FETCH_HEAD라는 branch에 담긴다.</br>
+fetch는 내가 pull한 파일과 fetch로 가져올 때 파일이 서로 다르면 안된다.</br>
+ex) 1. 내가 파일 A를 pull함. A가 수정됨. git fetch시 FETCH_HEAD branch가 생기며 checkout가능하다. ((fealllc...))로 변경됨.</br>
+이때 수정된 파일을 가진채로 새로운 branch를 만드는 방법까지 알려준다. git switch -c <new-branch-name> </br>
+2. 내가 파일 A를 pull함. pull한 파일 중 수정 파일 존재. A가 수정됨. git fetch시 정상작동 안함. </br>
+
 
 새로운 branch를 만드는 방법  
 git branch 새로만들 branch 이름  
@@ -74,7 +80,7 @@ git push --set-upstream origin 새로운 branch 이름
 ->정상 작동 한다면 새로운 branch가 위 코드 필요 없이 자동으로 만들어짐. 즉 protect된 branch에 직접 push를 하지 않으면 됨.</br>
 
 한번도 commit을 하지 않고 branch를 만들면  
-fata: not a valid object name: 'mater'이라고 에러 문구가 뜬다.  
+fatal: not a valid object name: 'mater'이라고 에러 문구가 뜬다.  
 그럼 여기서 강제로 git checkout -b test 를 입력하면 branch가 switch 되는데,  
 이는 새로운 branch가 만들어 진것이 아니라 기존 branch이름이 변경된 것이다(master -> test).  
 
@@ -107,6 +113,9 @@ git bash에서 vi gitignore 입력 후
 
 원격 저장소의 branch확인하기</br>
 git remote show origin </br>
+
+
+
 
 참고<br>
 https://www.zerocho.com/category/Git/post/580f633046f4fe09815b72a5 (git 명령 간단 설명)  
